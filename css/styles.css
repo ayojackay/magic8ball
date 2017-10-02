@@ -1,0 +1,56 @@
+body {
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 50px auto;
+}
+.main {
+  font-family: georgia;
+  font-weight: lighter;
+  color: #000;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pix {
+  width: 50%;
+  height: auto;
+}
+.cent {
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-question {
+  position: absolute;
+  top: 98px;
+  left: 190px;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  font-family: serif;
+}
+
+h2, h3 {
+  color: red;
+  text-align: center;
+}
+
+.buttonz {
+  width: 30%;
+  background-color: red;
+  color: white;
+  text-transform: lowercase;
+  border-radius: 10px;
+}

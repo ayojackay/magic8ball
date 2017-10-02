@@ -5,22 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>magic</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 main main--height cent ">
-        <img src="img/magic.8ball_empty.png" alt="" class="img-responsive pic" id="main__magic">
-        <h2 class="magic--question">Do you adore Rocky?</h2>
-        <h2>Abra, Codabra!</h2>
-        <p class="magic__info">welcome to the show with your fate. when you're ready, please tap on the button for your <span>eight ball</span> trick.</p>
-        <br>
-        <button id="snaps" class="first-button"></button>
-        <br>
-        <button id="snaps_2" class="second-button"></button>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 main cent">
+          <h2>Magic8Ball Project</h2>
+          <p class="text-center">welcome to the show with your fate. when you're ready, please tap on the button for your <span>eight ball</span> trick.</p>
+            <div class="row">
+              <div class="col-md-5">
+                <img src="img/magic8ball_empty.png" alt="" class="img-responsive pix cent" id="eightball" name="magic_eight">
+                <p class="text-question" id="magic--question">Do you adore Rocky?</p>
+              </div>
+              <div class="col-md-5 text-center">
+                <h3>Abra, Codabra!</h3>
+                <br />
+                <button class="buttonz" id="snaps"  onClick="magicQuestions()">snaps!</button>
+                <button class="buttonz" id="snaps_2" onClick="magicAnswer()">snappity, snap!</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
