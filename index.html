@@ -17,14 +17,15 @@
           <p class="text-center">welcome to the show with your fate. when you're ready, please tap on the button for your <span>eight ball</span> trick.</p>
             <div class="row">
               <div class="col-md-5">
-                <img src="img/magic8ball_empty.png" alt="" class="img-responsive pix cent" id="eightball" name="magic_eight">
-                <p class="text-question" id="magic--question">Do you adore Rocky?</p>
+                <img src="img/magic8ball_empty.png" alt="magic8ball" class="img-responsive pix cent" id="eightball" name="magic_eight">
               </div>
               <div class="col-md-5 text-center">
                 <h3>Abra, Codabra!</h3>
                 <br />
-                <button class="buttonz" id="snaps"  onClick="magicQuestions()">snaps!</button>
-                <button class="buttonz" id="snaps_2" onClick="magicAnswer()">snappity, snap!</button>
+                <form>
+                  <input type="text" id="ask" placeholder="ask your question">
+                  <button type="button" class="buttonz" onClick="magicAnswer()">snappity, snap!</button>
+                </form>
               </div>
             </div>
           </div>

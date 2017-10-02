@@ -21,7 +21,7 @@ body {
 }
 
 .pix {
-  width: 50%;
+  width: 60%;
   height: auto;
 }
 .cent {
@@ -32,13 +32,7 @@ body {
   text-align: center;
 }
 .text-question {
-  position: absolute;
-  top: 98px;
-  left: 190px;
   text-transform: capitalize;
-  color: #fff;
-  text-align: center;
-  width: 100px;
   font-family: serif;
 }
 
@@ -48,7 +42,6 @@ h2, h3 {
 }
 
 .buttonz {
-  width: 30%;
   background-color: red;
   color: white;
   text-transform: lowercase;
